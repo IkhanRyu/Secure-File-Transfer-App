@@ -90,6 +90,7 @@ public class Main {
     /*
     * Beans for User
     * */
+    @Bean
     protected UserInfoProvider userInfoProvider(){
 
         MemoryUserInfoProvider memoryUserInfoProvider = new MemoryUserInfoProvider();
