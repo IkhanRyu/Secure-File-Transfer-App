@@ -104,6 +104,7 @@ public class Main {
     /*
     * Beans for Handshaking
     * */
+    @Bean
     protected InitialAuthenticationStrategy initialAuthenticationStrategy(){
 
         MSCHAPInitialAuthenticationStrategy initialAuthenticationStrategy = new MSCHAPInitialAuthenticationStrategy();
